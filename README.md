@@ -24,15 +24,15 @@ This is a **login/sign-in UI demo** with a simple **dashboard** that displays th
 
 ```bash
 FundRaiser_Intern
-├── Backend # Main login form
+├── Backend 
 │   └── app.py
-├── Frontend # Styling for the form
+├── Frontend # Styling for the pages
 │   ├── static
 │   │   ├── css
 │   │   └── js
 │   └── templates
-├── requirements.txt # (Optional) Dummy form handling
-├── OutputScreenShots
+├── requirements.txt # requirements
+├── OutputScreenShots #Output Screenshots and screen recording
 └── README.md # Project info
 
 ```
@@ -41,12 +41,15 @@ FundRaiser_Intern
 ### 1. Clone the repo
 
 git clone https://github.com/Muskan-Tarafder/FundRaiser_Web.git
+
 cd FundRaiser_Web
 
 ### 2. Set up virtual environment
 
 python -m venv venv
+
 source venv/bin/activate       # On Linux/Mac
+
 venv\Scripts\activate          # On Windows
 
 
@@ -57,8 +60,11 @@ pip install -r requirements.txt
 ### 4. Set up MongoDB Atlas
 
 Create a MongoDB Atlas cluster and replace the MongoDB connection string, Database name and Collection name in app.py
+
 client = pymongo.MongoClient("your-mongodb-atlas-uri")
+
 db=client["your-database-name"]
+
 self.access=db["your-collection-name"]
 
 ### 5. Insert Sample Data
@@ -68,6 +74,8 @@ When signing up through the form, the system will automatically assign:
 - Random rewards (from a predefined list)
 This will populate your MongoDB users collection with new documents.
 Alternatively, you can manually insert a sample document into your MongoDB collection:
+
+```bash
 {
   "name": "DummyName",
   "email": "dummy@example.com",
@@ -77,10 +85,13 @@ Alternatively, you can manually insert a sample document into your MongoDB colle
   "createdAt": "2025-08-02T12:00:00Z"
 
 }
+```
 ### 6. Run the Flask app
 
 python Backend/app.py
+
 visit the link generated.
+
 
 
 🛠 Tech Stack
@@ -88,10 +99,12 @@ visit the link generated.
 - Backend: Flask (Python)
 - Database: MongoDB (Atlas)
 
+
 📌 Notes
 This is a dummy UI project — no real authentication or secure login.
 Signup form saves data to the database; login form uses dummy checks.
 Dashboard content is static or based on demo data fetched from MongoDB.
+
 
 
 ✍️ Author
