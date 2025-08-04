@@ -54,9 +54,10 @@ pip install -r requirements.txt
 
 ### 4. Set up MongoDB Atlas
 
-Create a MongoDB Atlas cluster and replace the MongoDB connection string and Database name in app.py
+Create a MongoDB Atlas cluster and replace the MongoDB connection string, Database name and Collection name in app.py
 client = pymongo.MongoClient("your-mongodb-atlas-uri")
-db=client["database name"]
+db=client["your-database-name"]
+self.access=db["your-collection-name"]
 
 ### 5. Insert Sample Data
 
@@ -72,7 +73,13 @@ Alternatively, you can manually insert a sample document into your MongoDB colle
   "total_donation": 15000,
   "rewards": "T-shirt, Badge",
   "createdAt": "2025-08-02T12:00:00Z"
+
 }
+### 6. Run the Flask app
+
+python Backend/app.py
+visit the link generated.
+
 
 🛠 Tech Stack
 - Frontend: HTML5, CSS3, JavaScript
