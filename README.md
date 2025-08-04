@@ -22,26 +22,7 @@ This is a **login/sign-in UI demo** with a simple **dashboard** that displays th
 
 ## 📁 Project Structure
 
-PandM/
-├── Backend/
-│   ├── app.py               # Flask application entry point
-│   ├── MainCode.py          # Main logic: SVD, MongoDB, recommendations
-│   └── book_to_music.py     # Content-based filtering logic
-│
-├── dataset/
-│   └── book_genres.py       # Reference document for book genres
-│
-├── .env                     # Environment variables (not shared)
-│
-├── Frontend/
-│   ├── static/
-│   │   ├── images/          # UI images
-│   │   ├── js/              # JavaScript files
-│   │   └── style/           # CSS files
-│   └── templates/           # HTML templates
-│
-└── README.md                # Project overview and instructions
-
+```bash
 FundRaiser_Intern
 ├── Backend # Main login form
 │   └── app.py
@@ -54,6 +35,7 @@ FundRaiser_Intern
 ├── OutputScreenShots
 └── README.md # Project info
 
+```
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repo
