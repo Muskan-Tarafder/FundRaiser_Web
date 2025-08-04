@@ -7,7 +7,6 @@ async function loadDetails() {
         const response = await fetch("/ShowData"); // API endpoint for favorites
         if (!response.ok) throw new Error("Failed to fetch favorites");
         const Details= await response.json();
-        // Details={name:'Hellooo',referalno:123,amt:5000};
         renderData(Details);
     }
     catch(error){
@@ -35,7 +34,6 @@ async function RewardList() {
     const response=await fetch("/Rewards");
     if(!response.ok) throw new Error('Error Fetching Data');
     const Details=await response.json();
-    // Details={'Rewards':['r1','r2','r3','r4']};
     renderReward(Details);
 }
 
