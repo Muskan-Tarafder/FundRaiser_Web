@@ -36,6 +36,17 @@ FundRaiser_Intern
 └── README.md # Project info
 
 ```
+
+##  📷 ScreenShots
+
+[!LoginPage](OutputScreenShot/Login_Page.png)
+
+[!MainPage](OutputScreenShot/MainPg1.png)
+
+[!MainPage](OutputScreenShot/MainPg2)
+
+[!Working](OutputScreenShot/FundRaiser_WebWork.mp4)
+
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repo
