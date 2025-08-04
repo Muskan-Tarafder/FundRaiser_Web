@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static',filename='js/index.js') }}" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="login-box">
+            <h2>Login</h2>
+            <p  style="color: black; font-size: 14px; margin-top: 10px;">(No authentication. Enter any combination)</p>
+            <form>
+                <p>Username</p>
+                <input class="inputs" id='name' type="text">
+                <p>Password</p>
+                <input type="password" id="pwd" class="inputs pwd" >
+                <p id="error-message" style="color: red; font-size: 14px; margin-top: 10px;"></p>
+                <br>
+            </form>
+            <button class="logbutton" onclick="Login()">Enter</button>
+            
+        </div>
+        <div class="signup-box">
+            <h2>Create Account</h2>
+            <form>
+                <p>Name</p>
+                <input class="inputs" id="newname">
+                <p>Email</p>
+                <input class="inputs" id="email">
+                <p>Create Password</p>
+                <input class="inputs" id="pass" type="password">
+                <p>Confirm Password</p>
+                <input class="inputs" id="confirm-password" type="password">
+                <br>
+                <p id="error-message-signup" style="color: red; font-size: 14px; margin-top: 10px;"></p>
+            </form>
+            <button class="signbutton" onclick="register()">SignUp</button>
+        </div>
+    </div>
+</body>
+</html>
