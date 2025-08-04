@@ -90,7 +90,7 @@ Alternatively, you can manually insert a sample document into your MongoDB colle
 {
   "name": "DummyName",
   "email": "dummy@example.com",
-  "referral_code": "DummyName123",
+  "referral_code": "0123",
   "total_donation": 15000,
   "rewards": "T-shirt, Badge",
   "createdAt": "2025-08-02T12:00:00Z"
