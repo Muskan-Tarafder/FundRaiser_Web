@@ -45,7 +45,7 @@ FundRaiser_Intern
 
 ![Main Page](OutputScreenShot/MainPg2.png)
 
-![Working](OutputScreenShot/FundRaiser_WebWork.mp4)
+[ 🎥 Click to Watch Demo](OutputScreenShot/FundRaiser_WebWork.mp4)
 
 ## 🚀 How to Run Locally
 
