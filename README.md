@@ -15,7 +15,7 @@ This is a **login/sign-in UI demo** with a simple **dashboard** that displays th
   - Intern's name
   - Referral code
   - Total donation raised
-  - Rewards earned
+  - Rewards
 - HTML, CSS, JS frontend with Flask backend
 
 
