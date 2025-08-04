@@ -1,11 +1,10 @@
-# from mainpg import FetchData
-from flask import Flask, request, jsonify,render_template,url_for
+from flask import Flask, request, jsonify,render_template
 from flask_cors import CORS
 import os
 import random
 from pymongo import MongoClient
 import datetime
-client=MongoClient('mongodb+srv://muskantarafder357:Kissan123@cluster0.ktn6z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client=MongoClient('Your-mongodb-atlas-uri')
 db=client['InternData']
 
 class FetchData:
@@ -28,8 +27,8 @@ class FetchData:
         data['createdAt'] = datetime.datetime.utcnow()
         result = self.access.insert_one(data)
         return True
+        
 base_dir = os.path.abspath(os.path.dirname(__file__))
-
 # Go up one level and enter Frontend/
 frontend_dir = os.path.abspath(os.path.join(base_dir, '..', 'Frontend'))
 
@@ -59,7 +58,7 @@ def ShowData():
 @app.route('/Rewards')
 def Rewards():
     result=holder.dict1['rewards']
-    
+    #Assigning Default Values
     if result==[]:
         result=['dummy1','dummy2','dummy3']
     data={'Rewards':result}
@@ -85,8 +84,6 @@ def newUser():
     return jsonify({'message':msg})
 
 
-app.run(debug=True)
-# mm=FetchData()
-# print(mm.dict1)
-# print(mm.GetData())
-# print(mm.dict1['rewards'])
+# Run the server
+if __name__ == "__main__":
+    app.run(debug=True)
