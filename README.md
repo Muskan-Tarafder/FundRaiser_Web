@@ -45,7 +45,7 @@ FundRaiser_Intern
 
 <img width="1600" height="900" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/blob/main/OutputScreenShot/MainPg2.png" />
 
-[!Working](OutputScreenShot/FundRaiser_WebWork.mp4)
+![Working](OutputScreenShot/Login_Page.png)
 
 ## 🚀 How to Run Locally
 
