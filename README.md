@@ -41,11 +41,9 @@ FundRaiser_Intern
 
 <img width="1920" height="1080" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/OutputScreenShot/Login_Page.png" />
 
-[!LoginPage](OutputScreenShot/Login_Page.png)
+<img width="1920" height="1080" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/OutputScreenShot/MainPg1.png" />
 
-[!MainPage](OutputScreenShot/MainPg1.png)
-
-[!MainPage](OutputScreenShot/MainPg2)
+<img width="1920" height="1080" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/OutputScreenShot/MainPg2.png" />
 
 [!Working](OutputScreenShot/FundRaiser_WebWork.mp4)
 
