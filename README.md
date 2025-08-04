@@ -39,13 +39,13 @@ FundRaiser_Intern
 
 ##  📷 ScreenShots
 
-<img width="1600" height="900" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/blob/main/OutputScreenShot/Login_Page.png" />
+![Login Page](OutputScreenShot/Login_Page.png)
 
-<img width="1600" height="900" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/blob/main/OutputScreenShot/MainPg1.png" />
+![Main Page](OutputScreenShot/MainPg1.png)
 
-<img width="1600" height="900" alt="Login_Page" src="https://github.com/Muskan-Tarafder/FundRaiser_Web/blob/main/OutputScreenShot/MainPg2.png" />
+![Main Page](OutputScreenShot/MainPg2.png)
 
-![Working](OutputScreenShot/Login_Page.png)
+![Working](OutputScreenShot/FundRaiser_WebWork.mp4)
 
 ## 🚀 How to Run Locally
 
