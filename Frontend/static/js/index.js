@@ -1,6 +1,3 @@
-window.addEventListener('load',()=>{
-    console.log("enteeered")
-})
 
 async function Login() {
     let name=document.getElementById('name').value;
