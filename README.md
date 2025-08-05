@@ -82,7 +82,7 @@ self.access=db["your-collection-name"]
 
 When signing up through the form, the system will automatically assign:
 - A random total_donation amount
-- Random rewards (from a predefined list)
+- Rewards (from a predefined list)
 This will populate your MongoDB users collection with new documents.
 Alternatively, you can manually insert a sample document into your MongoDB collection:
 
@@ -114,7 +114,7 @@ visit the link generated.
 📌 Notes
 This is a dummy UI project — no real authentication or secure login.
 Signup form saves data to the database; login form uses dummy checks.
-Dashboard content is static or based on demo data fetched from MongoDB.
+Dashboard content is based on demo data fetched from MongoDB.
 
 
 
